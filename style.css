@@ -1,0 +1,49 @@
+/*Common Elements*/
+html {
+	background: #f9f9f9;
+}
+h1 {
+	margin-bottom: 50px;
+}
+h3 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+section {
+	margin-bottom: 50px;
+}
+pre	{
+	color: #777;
+	overflow: hidden;
+}
+svg {
+	height: 20px;
+}
+text {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/*The Wrapper*/
+#wrapper {
+	width: 700px;
+	margin: 50px auto;
+}
+
+.japanese {
+	font-size: 24pt;
+}
+
+/*SVG Specific Height*/
+#text svg {
+	height: 60px;
+}
+#orientation svg {
+	height: 300px;
+}
+#alignment svg, #gradient svg {
+	height: 160px;
+}
+#path svg {
+	height: 200px;
+}
